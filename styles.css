@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat&display=swap');
+body{
+    margin: 0;
+    background-color: #151B8D;
+    scroll-behavior: smooth;
+    font-family:Montserrat ;
+
+}
+.main-block{
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
+.navbar,a{
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    margin-top: 16px;
+    color: white;
+}
+
+.main-col{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #151B8D;
+}
+#welcome{
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+}
+.text-col{
+    margin-top: 90px;
+    
+}
+.p-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    border-radius: 10px 10px 10px 10px;
+    font-family:Montserrat;
+    width: 200px;
+    height: auto;
+    background-color: #151B8D;
+    color: white;
+}
+.p-col-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn1{
+   
+    margin-top: 10px;
+    cursor: pointer;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    font-family:Montserrat;
+}
+.inner-box p{
+    width: auto;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+#call-icon{
+    width: 30px;
+    height: 30px;
+}
+#btn11{
+    border: 0px;
+    font-weight: bolder;
+    width: 140px;
+    margin-top: 10px;
+    cursor: pointer;
+    height: 60px;
+    background-color: rgb(181, 208, 5);
+    border-radius: 20px 20px 20px 20px;
+    font-family:Montserrat;
+}
+#offer{
+    width: 20px;
+    height: 20px;
+}
+#bus{
+    width: 20px;
+    height: 20px;
+}
+#contact-img{
+    width: 50%;
+}
+#waveimg{
+    width: 100%;
+}
+.main-col1{
+    text-align: center;
+    margin-top: -30px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+.adbanner-col img{
+    width: 400px;
+    height: 300px;
+}
+#btn2{
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    background-color:#151B8D ;
+    border-radius: 20px 20px 20px 20px;
+    font-family:Montserrat;
+}
+#book{
+    font-family:Montserrat ;
+    font-weight: bolder;
+}
+.box{
+    border: 1px solid black;
+    text-align: center;
+    color: rgb(2, 0, 0);
+    background-color: white;
+    width: 150px;
+    height: 100px;
+}
+.parent-col-box{
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.parent-col-box-1{
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+   
+    
+}
+#price{
+    text-align: center;
+    margin-top: 30%;
+    
+}
+.market-col p{
+    font-weight: bolder;
+}
+.spenddays-col{
+    font-size:medium ;
+    color: white;
+    font-weight: bolder;
+    background-image: url(icon/background.png);  
+}
+
+#text-box{
+    margin-top: 10px;
+}
+#days{
+    border: none;
+    margin-top: 10px;
+}
+#btn3{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-family:Montserrat;
+    border-radius: 10px 10px 10px 10px;
+}
+#btn34{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-family:Montserrat;
+    border-radius: 10px 10px 10px 10px;
+}
+.text-box{
+    border-radius: 10px 10px 10px 10px;
+    color: black;
+    background-color: white;
+    width: 80%;
+    min-height: 50px;
+}
+.places-col{
+    margin-top: -10px;
+    height: auto;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.places-food-col{
+    margin-top: -10px;
+    height: 500px;
+    background-color:#151B8D;
+    color: white;
+    font-weight: bold;
+}
+#btn4{
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    background-color:#151B8D ;
+    color: white;
+    font-family:Montserrat;
+    border-radius: 10px 10px 10px 10px;
+}
+.feedback{
+    width: 100%;
+    height:300px;
+    background-color: white;
+}
+.feedback img{
+    width: 200px;
+    height: auto;
+}
+#foodicon{
+    width: 150px;
+    height: auto;
+
+}
+.deadth-col p{
+    background-color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.deadth-col {
+    height: auto;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.number-book-col{
+    font-weight: bolder;
+    border-radius: 20px 20px 20px 20px;
+   margin-top: 10px;
+    background-color: rgb(181, 208, 5);
+    width: 50%;
+   min-height: 50px;
+}
+.number-book-col-main{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    background-color: #151B8D;
+}
+.box-1{
+    margin-top: -25px;
+    color: black;
+    width: 100%;
+    height: 250px;
+    background-color: #f3f4f5;
+}
+.footer-col{
+    display: flex;
+}
+.box-1 h1{
+    font-family: Montserrat;
+    font-size: 24px;
+}
+.box-1 a{
+    text-decoration: none;
+    color: black;
+}
+#footer,a{
+    margin-bottom: -30px;
+    height: auto;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+}
+#instaicon{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+#job{
+    width: 400px;
+}
+#rip{
+    width: 200px;
+}
+#da1{
+    text-align: center;
+    display: none;
+    background-color: white;
+    width: 100%;
+    height: auto;   
+}
+#da2{
+    display: none;
+    background-color: white;
+    width: 80%;
+    height: auto;   
+}
+#da3{
+    display: none;
+    background-color:white;
+    width: 80%;
+    height: auto;   
+}
+#da4{
+    display: none;
+    background-color:white;
+    width: 80%;
+    height:auto;   
+}
+#img1{
+    width: 40%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    .main-col1{
+        margin-top: -20px;
+        background-color: white;
+        width: 100%;
+        height: 100vh;
+    }
+    .adbanner-col img{
+        margin-top: 9px;
+        width: 100%;
+        height: 160px;
+    }
+    .spenddays-col{
+        margin-top: -15px;
+        font-size:medium ;
+        color: white;
+        font-weight: bolder;
+        background-image: url(icon/background.png);  
+    }
+    .white-col{
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+    .contact-book-col{
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+    .number-book-col{
+        font-weight: bolder;
+        border-radius: 20px 20px 20px 20px;
+       margin-top: 10px;
+       background-color: rgb(181, 208, 5);
+        width: 90%;
+         min-height: 50px;
+        border: 1px solid black;
+    }
+    .footer-col{
+        display: block;
+    }
+    .box-1{
+        margin-top: -25px;
+        color: black;
+        width: 100%;
+        min-height: 160px;
+        background-color: #f3f4f5;
+    }
+    .box-1:nth-child(3) {
+        height: 100px;
+        
+      }
+      #footer,a{
+        margin-top: -5px;
+        height: auto;
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+        background-color: white;
+    }
+    #instaicon{
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    #job{
+        width: 100%;
+    }
+    #rip{
+        width: 30%;
+    }
+    #img1{
+        width: 70%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+   
+  }
